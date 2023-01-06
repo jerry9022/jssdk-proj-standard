@@ -1,0 +1,7 @@
+# Browsers that we support: https://browsersl.ist/#q=defaults%2Cie+11&region=CN
+# Browserslist's default browsers(> 0.5%, last 2 versions,Firefox ESR, not dead)
+
+> 0.5% in CN   # 中国范围超过0.5%人使用的浏览器
+last 5 versions  # 所有浏览器兼容到最后5个版本，根据caniuse提供的数据
+not ie <= 10  # 排除ie11以下(不包括)的ie浏览器
+Firefox ESR  # 火狐企业版
